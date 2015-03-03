@@ -5,7 +5,6 @@
 	<version>1.0.7-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>rpid-parent</name>
-	
 	<modules>
 		<module>rpid-parent-third-party</module>
 		<module>rpid-parent-spring</module>
