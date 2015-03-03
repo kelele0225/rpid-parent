@@ -9,7 +9,7 @@
 	<modules>
 		<module>rpid-parent-third-party</module>
 		<module>rpid-parent-spring</module>
-		<module>rpid-parent-others-test</module>
+		<module>rpid-parent-others</module>
 	</modules>
 	
 	<properties>
