@@ -33,7 +33,7 @@
 <!-- 	</prerequisites> -->
 	<scm>
 		<connection>scm:git:git@github.com:kelele0225/store-parent.git</connection>
-		<developerConnection>scm:git:git@github.com:kelele0225/store-parent.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:kelele0225/rpid-parent.git</developerConnection>
 	    <tag>HEAD</tag>
 	</scm>
 	<dependencyManagement>
