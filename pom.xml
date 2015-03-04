@@ -11,9 +11,36 @@
 		<module>rpid-parent-others</module>
 	</modules>
 	
-	<properties>
-		<store-mail.version>1.77</store-mail.version>
+	<repositories>
+		<repository>
+			<id>real_repository</id>
+			<url>http://build01.dev.real.com:9999/repository</url>
+		</repository>
+		<repository>
+			<id>rpid-nexus</id>
+			<name>RPID Nexus Repository</name>
+			<url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url>
+		</repository>
+		<repository>
+			<id>ecomm-nexus</id>
+			<name>Ecommerce Nexus Repository</name>
+			<url>http://build02.dev.real.com:8081/nexus/content/repositories/releases</url>
+		</repository>
+		<repository>
+			<id>repo2.maven.org</id>
+			<url>http://mvnrepository.com/artifact</url>
+		</repository>
+		<repository>
+			<id>google-maven-snapshot-repository</id>
+			<name>Google Maven Snapshot Repository</name>
+			<url>https://m2repos.googlecode.com/svn/nexus</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	
+	<properties>		
 		<!-- Third Party -->
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<spring-ws.version>1.5.9</spring-ws.version>
@@ -28,9 +55,6 @@
 		<commons-codec.version>1.9</commons-codec.version>
 		
 	</properties>
-<!-- 	<prerequisites> -->
-<!-- 		<maven>3.0.2</maven> -->
-<!-- 	</prerequisites> -->
 	<scm>
 		<connection>scm:git:git@github.com:kelele0225/store-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:kelele0225/rpid-parent.git</developerConnection>
@@ -54,16 +78,7 @@
 				<artifactId>rpid-parent-others-test</artifactId>
 				<version>1.0.7-SNAPSHOT</version>
 			</dependency>
-			
-			<!-- end of store parents -->
-		
-			<dependency>
-				<groupId>com.real.global</groupId>
-				<artifactId>store-mail</artifactId>
-				<version>${store-mail.version}</version>
-			</dependency>
-			
-			
+						
 			<!-- Third Party -->
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -202,29 +217,12 @@
         </dependency>			
 	</dependencies>
 		
-	<repositories>
-<!-- 	   <repository> -->
-<!--      	 <id>ecomm-nexus</id> -->
-<!--      	 <name>Ecommerce Nexus Repository</name> -->
-<!--     	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/releases</url> -->
-<!--        </repository> -->
-<!-- 	   <repository> -->
-<!--      	 <id>rpid-nexus</id> -->
-<!--      	 <name>RPID Nexus Repository</name> -->
-<!--     	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url> -->
-<!--        </repository> -->
-		<repository>
-			<id>repo2.maven.org</id>
-			<url>http://repo2.maven.org/maven2</url>
-		</repository>
-	</repositories>
-
 
 	<distributionManagement>
 	   <repository>
      	 <id>rpid-nexus</id>
      	 <name>RPID Nexus Repository</name>
-    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url>
+    	  <url>http://build02.dev.realnetworks.com:8081/nexus/content/repositories/rpid-releases</url>
        </repository>
     </distributionManagement>
 	<build>
@@ -241,4 +239,73 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<developers>
+		<developer>
+			<id>dlu</id>
+			<name>Deborah Lu</name>
+			<email>dlu@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>PST</timezone>
+			<roles>
+				<role>MGR</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>yuezhou</id>
+			<name>Zhou Yue</name>
+			<email>yuezhou@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>GMT</timezone>
+			<roles>
+				<role>LEAD</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>cheneyyuan</id>
+			<name>Cheney Yuan</name>
+			<email>cyuan@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>GMT</timezone>
+			<roles>
+				<role>LEAD</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>lianghan</id>
+			<name>Han Liang</name>
+			<email>lianghan@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>GMT</timezone>
+			<roles>
+				<role>SDE</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>david</id>
+			<name>David Zhang</name>
+			<email>davidzhang@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>GMT</timezone>
+			<roles>
+				<role>SDE</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>rocky</id>
+			<name>Rocky Wang</name>
+			<email>rockywang@realnetworks.com</email>
+			<organization>Real Networks</organization>
+			<organizationUrl>http://www.realnetworks.com</organizationUrl>
+			<timezone>GMT</timezone>
+			<roles>
+				<role>SDE</role>
+			</roles>
+		</developer>
+	</developers>
 </project>
