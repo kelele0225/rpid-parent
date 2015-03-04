@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.real.global</groupId>
 	<artifactId>rpid-parent</artifactId>
-	<version>1.0.8-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>rpid-parent</name>
 	<modules>
@@ -66,17 +66,17 @@
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>rpid-parent-third-party</artifactId>
-				<version>1.0.8-SNAPSHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>rpid-parent-spring</artifactId>
-				<version>1.0.8-SNAPSHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
-				<artifactId>rpid-parent-others-test</artifactId>
-				<version>1.0.7-SNAPSHOT</version>
+				<artifactId>rpid-parent-others</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 						
 			<!-- Third Party -->
