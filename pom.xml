@@ -222,7 +222,7 @@
 	   <repository>
      	 <id>rpid-nexus</id>
      	 <name>RPID Nexus Repository</name>
-    	  <url>http://build02.dev.realnetworks.com:8081/nexus/content/repositories/rpid-releases</url>
+    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url>
        </repository>
     </distributionManagement>
 	<build>
