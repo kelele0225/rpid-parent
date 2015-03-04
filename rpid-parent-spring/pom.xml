@@ -3,11 +3,11 @@
 	<parent>
 		<groupId>com.real.global</groupId>
 		<artifactId>rpid-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 	</parent>
 	<groupId>com.real.global</groupId>
 	<artifactId>rpid-parent-spring</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>rpid parent spring</name>
 	
 	<properties>

@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.real.global</groupId>
 	<artifactId>rpid-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>pom</packaging>
 	<name>rpid-parent</name>
 	<modules>
@@ -58,7 +58,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:kelele0225/store-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:kelele0225/rpid-parent.git</developerConnection>
-	    <tag>HEAD</tag>
+	    <tag>rpid-parent-0.0.1</tag>
 	</scm>
 	<dependencyManagement>
 		<dependencies>
@@ -66,17 +66,17 @@
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>rpid-parent-third-party</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.1</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>rpid-parent-spring</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.1</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>rpid-parent-others</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.1</version>
 			</dependency>
 						
 			<!-- Third Party -->
